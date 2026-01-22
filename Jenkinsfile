@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     DOCKERHUB_CREDENTIALS = credentials('dockerhubID')
-    IMAGE_NAME = "1ms24mc048/my_webapp"
+    IMAGE_NAME = "1ms24mc048/maven-internals"
   }
 
   triggers {
