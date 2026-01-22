@@ -6,6 +6,10 @@ pipeline {
     IMAGE_NAME = "1ms24mc048/my_webapp"
   }
 
+  triggers {
+    cron('* * * * *')
+  }
+  
   stages {
     stage('Checkout') {
       steps {
